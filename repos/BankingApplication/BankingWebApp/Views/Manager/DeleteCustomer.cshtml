@@ -1,0 +1,35 @@
+﻿@model BankingWebApp.Models.TakeCustomerId
+
+@{
+    ViewData["Title"] = "DeleteCustomer";
+}
+
+<h4 style="font-family:'Lucida Calligraphy';">Delete Customer</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="DeleteCustomer">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="CustomerId" class="control-label" style="font-family:'Lucida Calligraphy';"></label>
+                <select asp-for="CustomerId" class="form-control">
+                    @foreach (var cust in ViewBag.customers)
+                    {
+                        <option value=@cust.CustomerId>@cust.CustomerId</option>
+                    }
+                </select>
+                <span asp-validation-for="CustomerId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Delete" class="btn btn-outline-dark mx-3" style="font-family:'Lucida Calligraphy';" />
+                <input type="reset" value="Reset" class="btn btn-outline-danger" style="font-family:'Lucida Calligraphy';"/>
+            </div>
+        </form>
+    </div>
+</div>
+<hr />
+<div>
+    <a asp-controller="Home" asp-action="ManagerFeatures" class="btn btn-outline-secondary" style="font-family:'Lucida Calligraphy';">Back</a>
+</div>
+
+

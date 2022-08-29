@@ -1,0 +1,38 @@
+﻿
+@{
+    ViewData["Title"] = "Transaction";
+}
+
+<h4 style="font-family:'Lucida Calligraphy';" class="alert-dark">Transactions</h4>
+
+<div class="container">
+    <div class="row">
+        <table id="yourtable">
+            <tr>
+                <th>TranscationId</th>
+                <th>Account Number</th>
+                <th>Transaction Amount</th>
+                <th>Transcation Type</th>
+                <th>Transaction Date</th>
+                <th>Source Account</th>
+                <th>Destinantion Account</th>
+                <th>Description</th>
+            </tr>
+            @foreach (var item in ViewBag.transaction)
+            {
+
+                <tr>
+                        <td>@item.TransactionId</td>
+                        <td>@item.AccountNo</td>
+                        <td>@item.TransactionAmount</td>
+                        <td>@item.TransactionType</td>
+                        <td>@item.TransactionDate</td>
+                        <td>@item.SourceAccountNo</td>
+                        <td>@item.DestinationAccountNo</td>
+                        <td>@item.TransactionDescription</td>
+                 </tr>  
+                 }
+        </table>
+    </div>
+</div>
+

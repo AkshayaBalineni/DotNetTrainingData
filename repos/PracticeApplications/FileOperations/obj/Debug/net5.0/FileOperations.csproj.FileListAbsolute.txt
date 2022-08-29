@@ -1,0 +1,16 @@
+C:\Users\balineni_a\source\repos\PracticeApplications\FileOperations\bin\Debug\net5.0\FileOperations.exe
+C:\Users\balineni_a\source\repos\PracticeApplications\FileOperations\bin\Debug\net5.0\FileOperations.deps.json
+C:\Users\balineni_a\source\repos\PracticeApplications\FileOperations\bin\Debug\net5.0\FileOperations.runtimeconfig.json
+C:\Users\balineni_a\source\repos\PracticeApplications\FileOperations\bin\Debug\net5.0\FileOperations.runtimeconfig.dev.json
+C:\Users\balineni_a\source\repos\PracticeApplications\FileOperations\bin\Debug\net5.0\FileOperations.dll
+C:\Users\balineni_a\source\repos\PracticeApplications\FileOperations\bin\Debug\net5.0\ref\FileOperations.dll
+C:\Users\balineni_a\source\repos\PracticeApplications\FileOperations\bin\Debug\net5.0\FileOperations.pdb
+C:\Users\balineni_a\source\repos\PracticeApplications\FileOperations\obj\Debug\net5.0\FileOperations.csproj.AssemblyReference.cache
+C:\Users\balineni_a\source\repos\PracticeApplications\FileOperations\obj\Debug\net5.0\FileOperations.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\balineni_a\source\repos\PracticeApplications\FileOperations\obj\Debug\net5.0\FileOperations.AssemblyInfoInputs.cache
+C:\Users\balineni_a\source\repos\PracticeApplications\FileOperations\obj\Debug\net5.0\FileOperations.AssemblyInfo.cs
+C:\Users\balineni_a\source\repos\PracticeApplications\FileOperations\obj\Debug\net5.0\FileOperations.csproj.CoreCompileInputs.cache
+C:\Users\balineni_a\source\repos\PracticeApplications\FileOperations\obj\Debug\net5.0\FileOperations.dll
+C:\Users\balineni_a\source\repos\PracticeApplications\FileOperations\obj\Debug\net5.0\ref\FileOperations.dll
+C:\Users\balineni_a\source\repos\PracticeApplications\FileOperations\obj\Debug\net5.0\FileOperations.pdb
+C:\Users\balineni_a\source\repos\PracticeApplications\FileOperations\obj\Debug\net5.0\FileOperations.genruntimeconfig.cache

@@ -1,0 +1,17 @@
+C:\Users\balineni_a\source\repos\ShopOnNewApp\ShopOnBussinessLayer\bin\Debug\net5.0\ShopOnBussinessLayer.deps.json
+C:\Users\balineni_a\source\repos\ShopOnNewApp\ShopOnBussinessLayer\bin\Debug\net5.0\ShopOnBussinessLayer.dll
+C:\Users\balineni_a\source\repos\ShopOnNewApp\ShopOnBussinessLayer\bin\Debug\net5.0\ref\ShopOnBussinessLayer.dll
+C:\Users\balineni_a\source\repos\ShopOnNewApp\ShopOnBussinessLayer\bin\Debug\net5.0\ShopOnBussinessLayer.pdb
+C:\Users\balineni_a\source\repos\ShopOnNewApp\ShopOnBussinessLayer\bin\Debug\net5.0\ShopOnCommonLayer.dll
+C:\Users\balineni_a\source\repos\ShopOnNewApp\ShopOnBussinessLayer\bin\Debug\net5.0\ShopOnDataLayer.dll
+C:\Users\balineni_a\source\repos\ShopOnNewApp\ShopOnBussinessLayer\bin\Debug\net5.0\ShopOnCommonLayer.pdb
+C:\Users\balineni_a\source\repos\ShopOnNewApp\ShopOnBussinessLayer\bin\Debug\net5.0\ShopOnDataLayer.pdb
+C:\Users\balineni_a\source\repos\ShopOnNewApp\ShopOnBussinessLayer\obj\Debug\net5.0\ShopOnBussinessLayer.csproj.AssemblyReference.cache
+C:\Users\balineni_a\source\repos\ShopOnNewApp\ShopOnBussinessLayer\obj\Debug\net5.0\ShopOnBussinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\balineni_a\source\repos\ShopOnNewApp\ShopOnBussinessLayer\obj\Debug\net5.0\ShopOnBussinessLayer.AssemblyInfoInputs.cache
+C:\Users\balineni_a\source\repos\ShopOnNewApp\ShopOnBussinessLayer\obj\Debug\net5.0\ShopOnBussinessLayer.AssemblyInfo.cs
+C:\Users\balineni_a\source\repos\ShopOnNewApp\ShopOnBussinessLayer\obj\Debug\net5.0\ShopOnBussinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\balineni_a\source\repos\ShopOnNewApp\ShopOnBussinessLayer\obj\Debug\net5.0\ShopOnBussinessLayer.csproj.CopyComplete
+C:\Users\balineni_a\source\repos\ShopOnNewApp\ShopOnBussinessLayer\obj\Debug\net5.0\ShopOnBussinessLayer.dll
+C:\Users\balineni_a\source\repos\ShopOnNewApp\ShopOnBussinessLayer\obj\Debug\net5.0\ref\ShopOnBussinessLayer.dll
+C:\Users\balineni_a\source\repos\ShopOnNewApp\ShopOnBussinessLayer\obj\Debug\net5.0\ShopOnBussinessLayer.pdb

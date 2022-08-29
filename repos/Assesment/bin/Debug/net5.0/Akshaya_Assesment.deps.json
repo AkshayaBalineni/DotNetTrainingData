@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Akshaya_Assesment/1.0.0": {
+        "runtime": {
+          "Akshaya_Assesment.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Akshaya_Assesment/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

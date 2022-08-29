@@ -1,0 +1,7 @@
+C:\Users\balineni_a\source\repos\Assignment1(akshaya)\Assignment1(akshaya)\obj\Debug\Assignment1(akshaya).csproj.AssemblyReference.cache
+C:\Users\balineni_a\source\repos\Assignment1(akshaya)\Assignment1(akshaya)\obj\Debug\Assignment1(akshaya).csproj.CoreCompileInputs.cache
+C:\Users\balineni_a\source\repos\Assignment1(akshaya)\Assignment1(akshaya)\bin\Debug\Assignment1(akshaya).exe.config
+C:\Users\balineni_a\source\repos\Assignment1(akshaya)\Assignment1(akshaya)\bin\Debug\Assignment1(akshaya).exe
+C:\Users\balineni_a\source\repos\Assignment1(akshaya)\Assignment1(akshaya)\bin\Debug\Assignment1(akshaya).pdb
+C:\Users\balineni_a\source\repos\Assignment1(akshaya)\Assignment1(akshaya)\obj\Debug\Assignment1(akshaya).exe
+C:\Users\balineni_a\source\repos\Assignment1(akshaya)\Assignment1(akshaya)\obj\Debug\Assignment1(akshaya).pdb

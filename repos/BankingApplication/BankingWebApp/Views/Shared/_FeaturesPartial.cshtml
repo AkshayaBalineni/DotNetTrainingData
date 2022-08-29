@@ -1,0 +1,15 @@
+﻿@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor httpContextAccessor
+
+<div class="navbar-nav justify-content-center">
+    @if (httpContextAccessor.HttpContext.Session.GetString("managerId") != null)
+    {
+        <form asp-action="ManagerFeatures" asp-controller="Home" method="post">
+            <button class="btn btn-outline-danger mx-3" style="font-family:'Lucida Calligraphy';">ManagerFeatures</button>
+        </form>
+    }
+    else
+    {
+         <button class="btn btn-outline-danger mx-3" style="font-family:'Lucida Calligraphy';">ManagerFeatures</button>
+    }
+</div>

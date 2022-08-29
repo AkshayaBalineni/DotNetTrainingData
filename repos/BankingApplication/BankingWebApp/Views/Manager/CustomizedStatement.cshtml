@@ -1,0 +1,76 @@
+﻿@model BankingWebApp.Models.CustomizedStatementVM
+
+@{
+    ViewData["Title"] = "CustomizedStatement";
+}
+<h4 style="font-family:'Lucida Calligraphy';">Customized Statement</h4>
+<hr />
+<span class="text-danger mb-5" style="font-family:'Lucida Calligraphy';" id="lblError"></span>
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="CustomizedStatement">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="AccountNumber" class="control-label" style="font-family:'Lucida Calligraphy';"></label>
+                <select asp-for="AccountNumber" class="form-control">
+                    @foreach (var num in ViewBag.accounts)
+                    {
+                        <option value=@num.AccountNumber>@num.AccountNumber</option>
+                    }
+                </select>
+                <span asp-validation-for="AccountNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FromDate" class="control-label" style="font-family:'Lucida Calligraphy';"></label>
+                <input asp-for="FromDate" class="form-control" />
+                <span asp-validation-for="FromDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ToDate" class="control-label" style="font-family:'Lucida Calligraphy';"></label>
+                <input asp-for="ToDate" class="form-control" />
+                <span asp-validation-for="ToDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LowerLimit" class="control-label" style="font-family:'Lucida Calligraphy';"></label>
+                <input asp-for="LowerLimit" class="form-control" onkeypress="return ValidateNumber(event)" />
+                <span asp-validation-for="LowerLimit" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NoOfTransactions" class="control-label" style="font-family:'Lucida Calligraphy';"></label>
+                <input asp-for="NoOfTransactions" class="form-control" min="0" />
+                <span asp-validation-for="NoOfTransactions" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Submit" class="btn btn-outline-dark mx-3" style="font-family:'Lucida Calligraphy';"/>
+                <input type="reset" value="Reset" class="btn btn-outline-danger" style="font-family:'Lucida Calligraphy';"/>
+            </div>
+        </form>
+    </div>
+</div>
+<div>
+    <a asp-controller="Home" asp-action="ManagerFeatures" class="btn btn-outline-secondary" style="font-family:'Lucida Calligraphy';">Back</a>
+</div>
+@section scripts
+{
+    <script type="text/javascript">
+        
+        /* ---------Validation for Numbers------------ */
+        function ValidateNumber(e) {
+            var keyCode = e.keyCode || e.which;
+
+            var lblError = document.getElementById("lblError");
+            lblError.innerHTML = "";
+
+            //Regex for Valid Characters i.e. Alphabets.
+            var regex = /^[0-9]+$/;
+
+            //Validate TextBox value against the Regex.
+            var isValid = regex.test(String.fromCharCode(keyCode));
+            if (!isValid) {
+                isValid = false;
+                lblError.innerHTML = "Only Numbers are allowed.";
+            }
+            return isValid;
+        }
+    </script>
+}

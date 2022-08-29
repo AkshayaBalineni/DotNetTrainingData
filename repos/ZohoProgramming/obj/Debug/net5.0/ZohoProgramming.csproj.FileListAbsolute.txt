@@ -1,0 +1,16 @@
+C:\Users\balineni_a\source\repos\ZohoProgramming\bin\Debug\net5.0\ZohoProgramming.exe
+C:\Users\balineni_a\source\repos\ZohoProgramming\bin\Debug\net5.0\ZohoProgramming.deps.json
+C:\Users\balineni_a\source\repos\ZohoProgramming\bin\Debug\net5.0\ZohoProgramming.runtimeconfig.json
+C:\Users\balineni_a\source\repos\ZohoProgramming\bin\Debug\net5.0\ZohoProgramming.runtimeconfig.dev.json
+C:\Users\balineni_a\source\repos\ZohoProgramming\bin\Debug\net5.0\ZohoProgramming.dll
+C:\Users\balineni_a\source\repos\ZohoProgramming\bin\Debug\net5.0\ref\ZohoProgramming.dll
+C:\Users\balineni_a\source\repos\ZohoProgramming\bin\Debug\net5.0\ZohoProgramming.pdb
+C:\Users\balineni_a\source\repos\ZohoProgramming\obj\Debug\net5.0\ZohoProgramming.csproj.AssemblyReference.cache
+C:\Users\balineni_a\source\repos\ZohoProgramming\obj\Debug\net5.0\ZohoProgramming.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\balineni_a\source\repos\ZohoProgramming\obj\Debug\net5.0\ZohoProgramming.AssemblyInfoInputs.cache
+C:\Users\balineni_a\source\repos\ZohoProgramming\obj\Debug\net5.0\ZohoProgramming.AssemblyInfo.cs
+C:\Users\balineni_a\source\repos\ZohoProgramming\obj\Debug\net5.0\ZohoProgramming.csproj.CoreCompileInputs.cache
+C:\Users\balineni_a\source\repos\ZohoProgramming\obj\Debug\net5.0\ZohoProgramming.dll
+C:\Users\balineni_a\source\repos\ZohoProgramming\obj\Debug\net5.0\ref\ZohoProgramming.dll
+C:\Users\balineni_a\source\repos\ZohoProgramming\obj\Debug\net5.0\ZohoProgramming.pdb
+C:\Users\balineni_a\source\repos\ZohoProgramming\obj\Debug\net5.0\ZohoProgramming.genruntimeconfig.cache

@@ -1,0 +1,15 @@
+C:\Users\balineni_a\source\repos\PracticeApplications\ContactRepository\bin\Debug\net5.0\ContactRepository.deps.json
+C:\Users\balineni_a\source\repos\PracticeApplications\ContactRepository\bin\Debug\net5.0\ContactRepository.dll
+C:\Users\balineni_a\source\repos\PracticeApplications\ContactRepository\bin\Debug\net5.0\ref\ContactRepository.dll
+C:\Users\balineni_a\source\repos\PracticeApplications\ContactRepository\bin\Debug\net5.0\ContactRepository.pdb
+C:\Users\balineni_a\source\repos\PracticeApplications\ContactRepository\bin\Debug\net5.0\CommonLayer.dll
+C:\Users\balineni_a\source\repos\PracticeApplications\ContactRepository\bin\Debug\net5.0\CommonLayer.pdb
+C:\Users\balineni_a\source\repos\PracticeApplications\ContactRepository\obj\Debug\net5.0\ContactRepository.csproj.AssemblyReference.cache
+C:\Users\balineni_a\source\repos\PracticeApplications\ContactRepository\obj\Debug\net5.0\ContactRepository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\balineni_a\source\repos\PracticeApplications\ContactRepository\obj\Debug\net5.0\ContactRepository.AssemblyInfoInputs.cache
+C:\Users\balineni_a\source\repos\PracticeApplications\ContactRepository\obj\Debug\net5.0\ContactRepository.AssemblyInfo.cs
+C:\Users\balineni_a\source\repos\PracticeApplications\ContactRepository\obj\Debug\net5.0\ContactRepository.csproj.CoreCompileInputs.cache
+C:\Users\balineni_a\source\repos\PracticeApplications\ContactRepository\obj\Debug\net5.0\ContactRepository.csproj.CopyComplete
+C:\Users\balineni_a\source\repos\PracticeApplications\ContactRepository\obj\Debug\net5.0\ContactRepository.dll
+C:\Users\balineni_a\source\repos\PracticeApplications\ContactRepository\obj\Debug\net5.0\ref\ContactRepository.dll
+C:\Users\balineni_a\source\repos\PracticeApplications\ContactRepository\obj\Debug\net5.0\ContactRepository.pdb

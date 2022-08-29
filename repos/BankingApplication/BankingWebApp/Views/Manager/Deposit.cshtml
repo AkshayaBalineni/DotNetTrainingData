@@ -1,0 +1,67 @@
+﻿@model BankingWebApp.Models.WithDrawVM
+
+@{
+    ViewData["Title"] = "Deposit";
+}
+
+<h4 style="font-family:'Lucida Calligraphy';">Deposit</h4>
+<hr />
+<span class="text-danger mb-5" style="font-family:'Lucida Calligraphy';" id="lblError"></span>
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Deposit">
+            <div asp-validation-summary="ModelOnly" class="text-danger" style="font-family:'Lucida Calligraphy';"></div>
+            <div class="form-group">
+                <label asp-for="AccountNumber" class="control-label" style="font-family:'Lucida Calligraphy';"></label>
+                <select asp-for="AccountNumber" class="form-control">
+                    @foreach (var num in ViewBag.accounts)
+                    {
+                        <option value=@num.AccountNumber>@num.AccountNumber</option>
+                    }
+                </select>
+                <span asp-validation-for="AccountNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Amount" class="control-label" style="font-family:'Lucida Calligraphy';"></label>
+                <input asp-for="Amount" class="form-control" onkeypress="ValidateNumber(event)"/>
+                <span asp-validation-for="Amount" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Descrption" class="control-label" style="font-family:'Lucida Calligraphy';"></label>
+                <input asp-for="Descrption" class="form-control" />
+                <span asp-validation-for="Descrption" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Submit" class="btn btn-outline-dark mx-3" style="font-family:'Lucida Calligraphy';"/>
+                <input type="reset" value="Reset" class="btn btn-outline-danger" style="font-family:'Lucida Calligraphy';"/>
+            </div>
+        </form>
+    </div>
+</div>
+<hr />
+<div>
+    <a asp-controller="Home" asp-action="ManagerFeatures" class="btn btn-outline-secondary" style="font-family:'Lucida Calligraphy';">Back</a>
+</div>
+@section scripts
+{
+    <script type="text/javascript">
+        /* ---------Validation for Numbers------------ */
+        function ValidateNumber(e) {
+            var keyCode = e.keyCode || e.which;
+
+            var lblError = document.getElementById("lblError");
+            lblError.innerHTML = "";
+
+            //Regex for Valid Characters i.e. Alphabets.
+            var regex = /^[0-9]+$/;
+
+            //Validate TextBox value against the Regex.
+            var isValid = regex.test(String.fromCharCode(keyCode));
+            if (!isValid) {
+                isValid = false;
+                lblError.innerHTML = "Only Numbers are allowed.";
+            }
+            return isValid;
+        }
+    </script>
+}

@@ -1,0 +1,16 @@
+C:\Users\balineni_a\source\repos\Assesment\bin\Debug\net5.0\Akshaya_Assesment.exe
+C:\Users\balineni_a\source\repos\Assesment\bin\Debug\net5.0\Akshaya_Assesment.deps.json
+C:\Users\balineni_a\source\repos\Assesment\bin\Debug\net5.0\Akshaya_Assesment.runtimeconfig.json
+C:\Users\balineni_a\source\repos\Assesment\bin\Debug\net5.0\Akshaya_Assesment.runtimeconfig.dev.json
+C:\Users\balineni_a\source\repos\Assesment\bin\Debug\net5.0\Akshaya_Assesment.dll
+C:\Users\balineni_a\source\repos\Assesment\bin\Debug\net5.0\ref\Akshaya_Assesment.dll
+C:\Users\balineni_a\source\repos\Assesment\bin\Debug\net5.0\Akshaya_Assesment.pdb
+C:\Users\balineni_a\source\repos\Assesment\obj\Debug\net5.0\Akshaya_Assesment.csproj.AssemblyReference.cache
+C:\Users\balineni_a\source\repos\Assesment\obj\Debug\net5.0\Akshaya_Assesment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\balineni_a\source\repos\Assesment\obj\Debug\net5.0\Akshaya_Assesment.AssemblyInfoInputs.cache
+C:\Users\balineni_a\source\repos\Assesment\obj\Debug\net5.0\Akshaya_Assesment.AssemblyInfo.cs
+C:\Users\balineni_a\source\repos\Assesment\obj\Debug\net5.0\Akshaya_Assesment.csproj.CoreCompileInputs.cache
+C:\Users\balineni_a\source\repos\Assesment\obj\Debug\net5.0\Akshaya_Assesment.dll
+C:\Users\balineni_a\source\repos\Assesment\obj\Debug\net5.0\ref\Akshaya_Assesment.dll
+C:\Users\balineni_a\source\repos\Assesment\obj\Debug\net5.0\Akshaya_Assesment.pdb
+C:\Users\balineni_a\source\repos\Assesment\obj\Debug\net5.0\Akshaya_Assesment.genruntimeconfig.cache

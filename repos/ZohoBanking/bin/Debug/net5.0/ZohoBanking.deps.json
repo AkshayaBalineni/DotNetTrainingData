@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "ZohoBanking/1.0.0": {
+        "dependencies": {
+          "ZohoBankingCommonLayer": "1.0.0",
+          "ZohoBankingRepo": "1.0.0"
+        },
+        "runtime": {
+          "ZohoBanking.dll": {}
+        }
+      },
+      "ZohoBankingCommonLayer/1.0.0": {
+        "runtime": {
+          "ZohoBankingCommonLayer.dll": {}
+        }
+      },
+      "ZohoBankingRepo/1.0.0": {
+        "dependencies": {
+          "ZohoBankingCommonLayer": "1.0.0"
+        },
+        "runtime": {
+          "ZohoBankingRepo.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ZohoBanking/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ZohoBankingCommonLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ZohoBankingRepo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

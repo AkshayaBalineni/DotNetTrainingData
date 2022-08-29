@@ -1,0 +1,16 @@
+C:\Users\balineni_a\source\repos\XoriantFrameWork\bin\Debug\net5.0\XoriantFrameWork.exe
+C:\Users\balineni_a\source\repos\XoriantFrameWork\bin\Debug\net5.0\XoriantFrameWork.deps.json
+C:\Users\balineni_a\source\repos\XoriantFrameWork\bin\Debug\net5.0\XoriantFrameWork.runtimeconfig.json
+C:\Users\balineni_a\source\repos\XoriantFrameWork\bin\Debug\net5.0\XoriantFrameWork.runtimeconfig.dev.json
+C:\Users\balineni_a\source\repos\XoriantFrameWork\bin\Debug\net5.0\XoriantFrameWork.dll
+C:\Users\balineni_a\source\repos\XoriantFrameWork\bin\Debug\net5.0\ref\XoriantFrameWork.dll
+C:\Users\balineni_a\source\repos\XoriantFrameWork\bin\Debug\net5.0\XoriantFrameWork.pdb
+C:\Users\balineni_a\source\repos\XoriantFrameWork\obj\Debug\net5.0\XoriantFrameWork.csproj.AssemblyReference.cache
+C:\Users\balineni_a\source\repos\XoriantFrameWork\obj\Debug\net5.0\XoriantFrameWork.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\balineni_a\source\repos\XoriantFrameWork\obj\Debug\net5.0\XoriantFrameWork.AssemblyInfoInputs.cache
+C:\Users\balineni_a\source\repos\XoriantFrameWork\obj\Debug\net5.0\XoriantFrameWork.AssemblyInfo.cs
+C:\Users\balineni_a\source\repos\XoriantFrameWork\obj\Debug\net5.0\XoriantFrameWork.csproj.CoreCompileInputs.cache
+C:\Users\balineni_a\source\repos\XoriantFrameWork\obj\Debug\net5.0\XoriantFrameWork.dll
+C:\Users\balineni_a\source\repos\XoriantFrameWork\obj\Debug\net5.0\ref\XoriantFrameWork.dll
+C:\Users\balineni_a\source\repos\XoriantFrameWork\obj\Debug\net5.0\XoriantFrameWork.pdb
+C:\Users\balineni_a\source\repos\XoriantFrameWork\obj\Debug\net5.0\XoriantFrameWork.genruntimeconfig.cache

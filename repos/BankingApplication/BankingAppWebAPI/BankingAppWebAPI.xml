@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BankingAppWebAPI</name>
+    </assembly>
+    <members>
+        <member name="M:BankingAppWebAPI.Controllers.CustomerContoller.BalanceEnquiry(System.String,System.String)">
+            <summary>
+            Returns balance
+            </summary>
+            <returns>Balance Enquiry </returns>
+            <remarks>
+             Sample Request :
+            
+                GET: /api/controller/{custumerId}/{accountNumber}
+            </remarks>
+        </member>
+        <member name="M:BankingAppWebAPI.Controllers.CustomerContoller.Ministatement(System.String,System.String)">
+            <summary>
+            Returns ministatement
+            </summary>
+            <returns>Minisatement</returns>
+            <remarks>
+            Sample Request :
+            
+                 GET: /api/customer/ministatement/{custumerId}/{accountNumber}
+            </remarks>
+        </member>
+        <member name="M:BankingAppWebAPI.Controllers.CustomerContoller.CustomisedStatement(System.String,System.DateTime,System.DateTime)">
+            <summary>
+            Returns Customized satement
+            </summary>
+            <returns>Customized satement</returns>
+            <remarks>
+                Sample Request :
+            
+             GET: /api/customer/{AccountNumber}/{fromDate}/{toDate}
+            </remarks>
+        </member>
+        <member name="M:BankingAppWebAPI.Controllers.CustomerContoller.FundTransfer(System.String,System.String,System.Double)">
+            <summary>
+            Returns transaction
+            </summary>
+            <returns>Fund Transfer</returns>
+            <remarks>
+            Sample Request : 
+            
+                GET: /api/customer/fundTransfer/{source}/{destination}/{amount}
+            </remarks>
+        </member>
+    </members>
+</doc>

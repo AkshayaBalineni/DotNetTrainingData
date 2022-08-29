@@ -1,0 +1,16 @@
+C:\Users\balineni_a\source\repos\PracticeApplications\DemoApplications\bin\Debug\net5.0\DemoApplications.exe
+C:\Users\balineni_a\source\repos\PracticeApplications\DemoApplications\bin\Debug\net5.0\DemoApplications.deps.json
+C:\Users\balineni_a\source\repos\PracticeApplications\DemoApplications\bin\Debug\net5.0\DemoApplications.runtimeconfig.json
+C:\Users\balineni_a\source\repos\PracticeApplications\DemoApplications\bin\Debug\net5.0\DemoApplications.runtimeconfig.dev.json
+C:\Users\balineni_a\source\repos\PracticeApplications\DemoApplications\bin\Debug\net5.0\DemoApplications.dll
+C:\Users\balineni_a\source\repos\PracticeApplications\DemoApplications\bin\Debug\net5.0\ref\DemoApplications.dll
+C:\Users\balineni_a\source\repos\PracticeApplications\DemoApplications\bin\Debug\net5.0\DemoApplications.pdb
+C:\Users\balineni_a\source\repos\PracticeApplications\DemoApplications\obj\Debug\net5.0\DemoApplications.csproj.AssemblyReference.cache
+C:\Users\balineni_a\source\repos\PracticeApplications\DemoApplications\obj\Debug\net5.0\DemoApplications.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\balineni_a\source\repos\PracticeApplications\DemoApplications\obj\Debug\net5.0\DemoApplications.AssemblyInfoInputs.cache
+C:\Users\balineni_a\source\repos\PracticeApplications\DemoApplications\obj\Debug\net5.0\DemoApplications.AssemblyInfo.cs
+C:\Users\balineni_a\source\repos\PracticeApplications\DemoApplications\obj\Debug\net5.0\DemoApplications.csproj.CoreCompileInputs.cache
+C:\Users\balineni_a\source\repos\PracticeApplications\DemoApplications\obj\Debug\net5.0\DemoApplications.dll
+C:\Users\balineni_a\source\repos\PracticeApplications\DemoApplications\obj\Debug\net5.0\ref\DemoApplications.dll
+C:\Users\balineni_a\source\repos\PracticeApplications\DemoApplications\obj\Debug\net5.0\DemoApplications.pdb
+C:\Users\balineni_a\source\repos\PracticeApplications\DemoApplications\obj\Debug\net5.0\DemoApplications.genruntimeconfig.cache

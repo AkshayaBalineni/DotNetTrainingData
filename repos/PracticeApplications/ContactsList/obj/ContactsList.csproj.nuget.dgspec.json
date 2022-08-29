@@ -1,0 +1,242 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\balineni_a\\source\\repos\\PracticeApplications\\ContactsList\\ContactsList.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\balineni_a\\source\\repos\\PracticeApplications\\BussinessLayer\\BussinessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\balineni_a\\source\\repos\\PracticeApplications\\BussinessLayer\\BussinessLayer.csproj",
+        "projectName": "BussinessLayer",
+        "projectPath": "C:\\Users\\balineni_a\\source\\repos\\PracticeApplications\\BussinessLayer\\BussinessLayer.csproj",
+        "packagesPath": "C:\\Users\\balineni_a\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\balineni_a\\source\\repos\\PracticeApplications\\BussinessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\balineni_a\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\balineni_a\\source\\repos\\PracticeApplications\\CommonLayer\\CommonLayer.csproj": {
+                "projectPath": "C:\\Users\\balineni_a\\source\\repos\\PracticeApplications\\CommonLayer\\CommonLayer.csproj"
+              },
+              "C:\\Users\\balineni_a\\source\\repos\\PracticeApplications\\ContactRepository\\ContactRepository.csproj": {
+                "projectPath": "C:\\Users\\balineni_a\\source\\repos\\PracticeApplications\\ContactRepository\\ContactRepository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\balineni_a\\source\\repos\\PracticeApplications\\CommonLayer\\CommonLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\balineni_a\\source\\repos\\PracticeApplications\\CommonLayer\\CommonLayer.csproj",
+        "projectName": "CommonLayer",
+        "projectPath": "C:\\Users\\balineni_a\\source\\repos\\PracticeApplications\\CommonLayer\\CommonLayer.csproj",
+        "packagesPath": "C:\\Users\\balineni_a\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\balineni_a\\source\\repos\\PracticeApplications\\CommonLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\balineni_a\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\balineni_a\\source\\repos\\PracticeApplications\\ContactRepository\\ContactRepository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\balineni_a\\source\\repos\\PracticeApplications\\ContactRepository\\ContactRepository.csproj",
+        "projectName": "ContactRepository",
+        "projectPath": "C:\\Users\\balineni_a\\source\\repos\\PracticeApplications\\ContactRepository\\ContactRepository.csproj",
+        "packagesPath": "C:\\Users\\balineni_a\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\balineni_a\\source\\repos\\PracticeApplications\\ContactRepository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\balineni_a\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\balineni_a\\source\\repos\\PracticeApplications\\CommonLayer\\CommonLayer.csproj": {
+                "projectPath": "C:\\Users\\balineni_a\\source\\repos\\PracticeApplications\\CommonLayer\\CommonLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\balineni_a\\source\\repos\\PracticeApplications\\ContactsList\\ContactsList.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\balineni_a\\source\\repos\\PracticeApplications\\ContactsList\\ContactsList.csproj",
+        "projectName": "ContactsList",
+        "projectPath": "C:\\Users\\balineni_a\\source\\repos\\PracticeApplications\\ContactsList\\ContactsList.csproj",
+        "packagesPath": "C:\\Users\\balineni_a\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\balineni_a\\source\\repos\\PracticeApplications\\ContactsList\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\balineni_a\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\balineni_a\\source\\repos\\PracticeApplications\\BussinessLayer\\BussinessLayer.csproj": {
+                "projectPath": "C:\\Users\\balineni_a\\source\\repos\\PracticeApplications\\BussinessLayer\\BussinessLayer.csproj"
+              },
+              "C:\\Users\\balineni_a\\source\\repos\\PracticeApplications\\CommonLayer\\CommonLayer.csproj": {
+                "projectPath": "C:\\Users\\balineni_a\\source\\repos\\PracticeApplications\\CommonLayer\\CommonLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

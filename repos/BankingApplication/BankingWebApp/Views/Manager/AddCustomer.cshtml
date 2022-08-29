@@ -1,0 +1,115 @@
+﻿@model BankingWebApp.Models.NewCustomer
+
+@{
+    ViewData["Title"] = "AddCustomer";
+}
+
+<h4 style="font-family:'Lucida Calligraphy';">New Customer</h4>
+<hr />
+<span class="text-danger mb-5" style="font-family:'Lucida Calligraphy';" id="lblError"></span>
+<div class="row bg-">
+    <div class="col-md-4">
+        <form asp-action="AddCustomer">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="FirstName" class="control-label" style="font-family:'Lucida Calligraphy';"></label>
+                <input asp-for="FirstName" class="form-control" onkeypress="return ValidateText(event)" />
+                <span asp-validation-for="FirstName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LastName" class="control-label" style="font-family:'Lucida Calligraphy';"></label>
+                <input asp-for="LastName" class="form-control" onkeypress="return ValidateText(event)" />
+                <span asp-validation-for="LastName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Gender" class="control-label" style="font-family:'Lucida Calligraphy';"></label>
+                <select asp-for="Gender" class="form-control">
+                    <option value="Female">Female</option>
+                    <option value="Male">Male</option>
+                    <option value="Others">Others</option>
+                </select>
+                <span asp-validation-for="Gender" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DOB" class="control-label" style="font-family:'Lucida Calligraphy';"></label>
+                <input asp-for="DOB" class="form-control" placeholder="select" />
+                <span asp-validation-for="DOB" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EmailId" class="control-label" style="font-family:'Lucida Calligraphy';"></label>
+                <input asp-for="EmailId" class="form-control" />
+                <span asp-validation-for="EmailId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MobileNumber" class="control-label" style="font-family:'Lucida Calligraphy';"></label>
+                <input asp-for="MobileNumber" class="form-control" onkeypress="return ValidateNumber(event)" />
+                <span asp-validation-for="MobileNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="City" class="control-label" style="font-family:'Lucida Calligraphy';"></label>
+                <input asp-for="City" class="form-control" onkeypress="return ValidateText(event)" />
+                <span asp-validation-for="City" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="State" class="control-label" style="font-family:'Lucida Calligraphy';"></label>
+                <input asp-for="State" class="form-control" onkeypress="return ValidateText(event)" />
+                <span asp-validation-for="State" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Pincode" class="control-label" style="font-family:'Lucida Calligraphy';"></label>
+                <input asp-for="Pincode" class="form-control" onkeypress="return ValidateNumber(event)" />
+                <span asp-validation-for="Pincode" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create Customer" class="btn btn-outline-dark mx-3" style="font-family:'Lucida Calligraphy';"/>
+                <input type="reset" value="Reset" class="btn btn-outline-danger" style="font-family:'Lucida Calligraphy';"/>
+            </div>
+        </form>
+    </div>
+</div>
+<hr />
+<div>
+    <a asp-controller="Home" asp-action="ManagerFeatures" class="btn btn-outline-secondary" style="font-family:'Lucida Calligraphy';">Back</a>
+</div>
+
+@section scripts
+{
+    <script type="text/javascript">
+        /* ---------Validation for Alphabets------------ */
+        function ValidateText(e) {
+            var keyCode = e.keyCode || e.which;
+
+            var lblError = document.getElementById("lblError");
+            lblError.innerHTML = "";
+
+            //Regex for Valid Characters i.e. Alphabets.
+            var regex = /^[A-Za-z]+$/;
+
+            //Validate TextBox value against the Regex.
+            var isValid = regex.test(String.fromCharCode(keyCode));
+            if (!isValid) {
+                isValid = false;
+                lblError.innerHTML = "Only Alphabets are allowed.";
+            }
+            return isValid;
+        }
+        /* ---------Validation for Numbers------------ */
+        function ValidateNumber(e) {
+            var keyCode = e.keyCode || e.which;
+
+            var lblError = document.getElementById("lblError");
+            lblError.innerHTML = "";
+
+            //Regex for Valid Characters i.e. Alphabets.
+            var regex = /^[0-9]+$/;
+
+            //Validate TextBox value against the Regex.
+            var isValid = regex.test(String.fromCharCode(keyCode));
+            if (!isValid) {
+                isValid = false;
+                lblError.innerHTML = "Only Numbers are allowed.";
+            }
+            return isValid;
+        }
+    </script>
+}

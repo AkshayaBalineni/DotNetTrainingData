@@ -1,0 +1,112 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "ZohoBankingCommonLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/ZohoBankingCommonLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ZohoBankingCommonLayer.dll": {}
+        }
+      },
+      "ZohoBankingRepo/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "ZohoBankingCommonLayer": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ZohoBankingRepo.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ZohoBankingRepo.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ZohoBankingCommonLayer/1.0.0": {
+      "type": "project",
+      "path": "../ZohoBankingCommonLayer/ZohoBankingCommonLayer.csproj",
+      "msbuildProject": "../ZohoBankingCommonLayer/ZohoBankingCommonLayer.csproj"
+    },
+    "ZohoBankingRepo/1.0.0": {
+      "type": "project",
+      "path": "../ZohoBankingRepo/ZohoBankingRepo.csproj",
+      "msbuildProject": "../ZohoBankingRepo/ZohoBankingRepo.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "ZohoBankingCommonLayer >= 1.0.0",
+      "ZohoBankingRepo >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\balineni_a\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\balineni_a\\source\\repos\\ZohoBanking\\ZohoBanking.csproj",
+      "projectName": "ZohoBanking",
+      "projectPath": "C:\\Users\\balineni_a\\source\\repos\\ZohoBanking\\ZohoBanking.csproj",
+      "packagesPath": "C:\\Users\\balineni_a\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\balineni_a\\source\\repos\\ZohoBanking\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\balineni_a\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "C:\\Users\\balineni_a\\source\\repos\\ZohoBankingCommonLayer\\ZohoBankingCommonLayer.csproj": {
+              "projectPath": "C:\\Users\\balineni_a\\source\\repos\\ZohoBankingCommonLayer\\ZohoBankingCommonLayer.csproj"
+            },
+            "C:\\Users\\balineni_a\\source\\repos\\ZohoBankingRepo\\ZohoBankingRepo.csproj": {
+              "projectPath": "C:\\Users\\balineni_a\\source\\repos\\ZohoBankingRepo\\ZohoBankingRepo.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

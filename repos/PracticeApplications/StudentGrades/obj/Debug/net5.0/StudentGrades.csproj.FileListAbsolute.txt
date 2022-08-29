@@ -1,0 +1,16 @@
+C:\Users\balineni_a\source\repos\PracticeApplications\StudentGrades\bin\Debug\net5.0\StudentGrades.exe
+C:\Users\balineni_a\source\repos\PracticeApplications\StudentGrades\bin\Debug\net5.0\StudentGrades.deps.json
+C:\Users\balineni_a\source\repos\PracticeApplications\StudentGrades\bin\Debug\net5.0\StudentGrades.runtimeconfig.json
+C:\Users\balineni_a\source\repos\PracticeApplications\StudentGrades\bin\Debug\net5.0\StudentGrades.runtimeconfig.dev.json
+C:\Users\balineni_a\source\repos\PracticeApplications\StudentGrades\bin\Debug\net5.0\StudentGrades.dll
+C:\Users\balineni_a\source\repos\PracticeApplications\StudentGrades\bin\Debug\net5.0\ref\StudentGrades.dll
+C:\Users\balineni_a\source\repos\PracticeApplications\StudentGrades\bin\Debug\net5.0\StudentGrades.pdb
+C:\Users\balineni_a\source\repos\PracticeApplications\StudentGrades\obj\Debug\net5.0\StudentGrades.csproj.AssemblyReference.cache
+C:\Users\balineni_a\source\repos\PracticeApplications\StudentGrades\obj\Debug\net5.0\StudentGrades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\balineni_a\source\repos\PracticeApplications\StudentGrades\obj\Debug\net5.0\StudentGrades.AssemblyInfoInputs.cache
+C:\Users\balineni_a\source\repos\PracticeApplications\StudentGrades\obj\Debug\net5.0\StudentGrades.AssemblyInfo.cs
+C:\Users\balineni_a\source\repos\PracticeApplications\StudentGrades\obj\Debug\net5.0\StudentGrades.csproj.CoreCompileInputs.cache
+C:\Users\balineni_a\source\repos\PracticeApplications\StudentGrades\obj\Debug\net5.0\StudentGrades.dll
+C:\Users\balineni_a\source\repos\PracticeApplications\StudentGrades\obj\Debug\net5.0\ref\StudentGrades.dll
+C:\Users\balineni_a\source\repos\PracticeApplications\StudentGrades\obj\Debug\net5.0\StudentGrades.pdb
+C:\Users\balineni_a\source\repos\PracticeApplications\StudentGrades\obj\Debug\net5.0\StudentGrades.genruntimeconfig.cache

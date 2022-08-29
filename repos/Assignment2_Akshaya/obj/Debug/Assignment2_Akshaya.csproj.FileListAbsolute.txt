@@ -1,0 +1,7 @@
+C:\Users\balineni_a\source\repos\Assignment2_Akshaya\bin\Debug\Assignment2_Akshaya.exe.config
+C:\Users\balineni_a\source\repos\Assignment2_Akshaya\bin\Debug\Assignment2_Akshaya.exe
+C:\Users\balineni_a\source\repos\Assignment2_Akshaya\bin\Debug\Assignment2_Akshaya.pdb
+C:\Users\balineni_a\source\repos\Assignment2_Akshaya\obj\Debug\Assignment2_Akshaya.csproj.AssemblyReference.cache
+C:\Users\balineni_a\source\repos\Assignment2_Akshaya\obj\Debug\Assignment2_Akshaya.csproj.CoreCompileInputs.cache
+C:\Users\balineni_a\source\repos\Assignment2_Akshaya\obj\Debug\Assignment2_Akshaya.exe
+C:\Users\balineni_a\source\repos\Assignment2_Akshaya\obj\Debug\Assignment2_Akshaya.pdb

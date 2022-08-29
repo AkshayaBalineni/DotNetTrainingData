@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewData["Title"] = "ClosingTicket";
+}
+
+<h4>ClosingTicket</h4>
+<hr />
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            @if (@ViewBag.CloseTicketId != 0)
+            {
+            <h6>Ticket Id @ViewBag.CloseTicketId Succuessfully closed</h6>
+            }
+            else
+            {
+                <h4>Invalid Operation!</h4>
+            }
+        </div>
+    </div>
+    <hr />
+</div>

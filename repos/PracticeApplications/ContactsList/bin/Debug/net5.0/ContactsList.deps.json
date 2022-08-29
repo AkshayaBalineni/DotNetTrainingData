@@ -1,0 +1,64 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "ContactsList/1.0.0": {
+        "dependencies": {
+          "BussinessLayer": "1.0.0",
+          "CommonLayer": "1.0.0"
+        },
+        "runtime": {
+          "ContactsList.dll": {}
+        }
+      },
+      "BussinessLayer/1.0.0": {
+        "dependencies": {
+          "CommonLayer": "1.0.0",
+          "ContactRepository": "1.0.0"
+        },
+        "runtime": {
+          "BussinessLayer.dll": {}
+        }
+      },
+      "CommonLayer/1.0.0": {
+        "runtime": {
+          "CommonLayer.dll": {}
+        }
+      },
+      "ContactRepository/1.0.0": {
+        "dependencies": {
+          "CommonLayer": "1.0.0"
+        },
+        "runtime": {
+          "ContactRepository.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ContactsList/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BussinessLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CommonLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ContactRepository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

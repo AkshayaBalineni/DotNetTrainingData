@@ -1,0 +1,16 @@
+C:\Users\balineni_a\source\repos\StringPrograms.cs\bin\Debug\net5.0\StringPrograms.cs.exe
+C:\Users\balineni_a\source\repos\StringPrograms.cs\bin\Debug\net5.0\StringPrograms.cs.deps.json
+C:\Users\balineni_a\source\repos\StringPrograms.cs\bin\Debug\net5.0\StringPrograms.cs.runtimeconfig.json
+C:\Users\balineni_a\source\repos\StringPrograms.cs\bin\Debug\net5.0\StringPrograms.cs.runtimeconfig.dev.json
+C:\Users\balineni_a\source\repos\StringPrograms.cs\bin\Debug\net5.0\StringPrograms.cs.dll
+C:\Users\balineni_a\source\repos\StringPrograms.cs\bin\Debug\net5.0\ref\StringPrograms.cs.dll
+C:\Users\balineni_a\source\repos\StringPrograms.cs\bin\Debug\net5.0\StringPrograms.cs.pdb
+C:\Users\balineni_a\source\repos\StringPrograms.cs\obj\Debug\net5.0\StringPrograms.cs.csproj.AssemblyReference.cache
+C:\Users\balineni_a\source\repos\StringPrograms.cs\obj\Debug\net5.0\StringPrograms.cs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\balineni_a\source\repos\StringPrograms.cs\obj\Debug\net5.0\StringPrograms.cs.AssemblyInfoInputs.cache
+C:\Users\balineni_a\source\repos\StringPrograms.cs\obj\Debug\net5.0\StringPrograms.cs.AssemblyInfo.cs
+C:\Users\balineni_a\source\repos\StringPrograms.cs\obj\Debug\net5.0\StringPrograms.cs.csproj.CoreCompileInputs.cache
+C:\Users\balineni_a\source\repos\StringPrograms.cs\obj\Debug\net5.0\StringPrograms.cs.dll
+C:\Users\balineni_a\source\repos\StringPrograms.cs\obj\Debug\net5.0\ref\StringPrograms.cs.dll
+C:\Users\balineni_a\source\repos\StringPrograms.cs\obj\Debug\net5.0\StringPrograms.cs.pdb
+C:\Users\balineni_a\source\repos\StringPrograms.cs\obj\Debug\net5.0\StringPrograms.cs.genruntimeconfig.cache

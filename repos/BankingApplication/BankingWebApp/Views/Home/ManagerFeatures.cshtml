@@ -1,0 +1,125 @@
+﻿@{
+    ViewData["Title"] = "ManagerFeatures";
+}
+
+<h4 style="font-family:'Lucida Calligraphy';">Manager Operations</h4>
+<hr />
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="product_section_card my-3 p-2 shadow text-center zoom">
+                <img class="productImg" src="~/Images/AddCustomer.png" />
+                <aside>
+                    <a class="btn btn-outline-dark my-3" asp-controller="Manager" asp-action="AddCustomer"style="font-family:'Lucida Calligraphy';">New Customer</a>
+                </aside>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="product_section_card my-3 p-2 shadow text-center zoom">
+                <img class="productImg" src="~/Images/EditCustomer.png" />
+                <aside>
+                    <a class="btn btn-outline-dark my-3" asp-controller="Manager" asp-action="TakeCustomerId" style="font-family:'Lucida Calligraphy';">Update Customer</a>
+                </aside>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="product_section_card my-3 p-2 shadow text-center zoom">
+                <img class="productImg" src="~/Images/DeleteCustomer.png"/>
+                <aside>
+                    <a class="btn btn-outline-dark my-3" asp-controller="Manager" asp-action="DeleteCustomer" style="font-family:'Lucida Calligraphy';">Delete Customer</a>
+                </aside>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="product_section_card my-3 p-2 shadow text-center zoom">
+                <img class="productImg" src="~/Images/AddBank.png" />
+                <aside>
+                    <a class="btn btn-outline-dark my-3" asp-controller="Manager" asp-action="AddAccount" style="font-family:'Lucida Calligraphy';">Add Account</a>
+                </aside>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="product_section_card my-3 p-2 shadow text-center zoom">
+                <img class="productImg" src="~/Images/deleteAccount.png" />
+                <aside>
+                    <a class="btn btn-outline-dark my-3" asp-controller="Manager" asp-action="DeleteAccount" style="font-family:'Lucida Calligraphy';">Delete Account</a>
+                </aside>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="product_section_card my-3 p-2 shadow text-center zoom">
+                <img class="productImg" src="~/Images/EditAccount1.png" />
+                <aside>
+                    <a class="btn btn-outline-dark my-3" asp-controller="Manager" asp-action="UpdateAccount" style="font-family:'Lucida Calligraphy';">Update Account</a>
+                </aside>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="product_section_card my-3 p-2 shadow text-center zoom">
+                <img class="productImg" src="~/Images/withdraw.webp" />
+                <aside>
+                    <a class="btn btn-outline-dark my-3" asp-controller="Manager" asp-action="Withdraw" style="font-family:'Lucida Calligraphy';">Withdraw Amount</a>
+                </aside>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="product_section_card my-3 p-2 shadow text-center zoom">
+                <img class="productImg" src="~/Images/Deposit.png" />
+                <aside>
+                    <a class="btn btn-outline-dark my-3" asp-controller="Manager" asp-action="Deposit" style="font-family:'Lucida Calligraphy';">Deposit</a>
+                </aside>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="product_section_card my-3 p-2 shadow text-center zoom">
+                <img class="productImg" src="~/Images/minisatement.png" />
+                <aside>
+                    <a class="btn btn-outline-dark my-3" asp-controller="Manager" asp-action="Ministatement" style="font-family:'Lucida Calligraphy';">Mini Statement</a>
+                </aside>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="product_section_card my-3 p-2 shadow text-center zoom">
+                <img class="productImg" src="~/Images/fundtransfer.png" />
+                <aside>
+                    <a class="btn btn-outline-dark my-3" asp-controller="Manager" asp-action="FundTransfer" style="font-family:'Lucida Calligraphy';">Fund Transfer</a>
+                </aside>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="product_section_card my-3 p-2 shadow text-center zoom">
+                <img class="productImg" src="~/Images/balanceenquiry.png" />
+                <aside>
+                    <a class="btn btn-outline-dark my-3" asp-controller="Manager" asp-action="BalanceEnquiry" style="font-family:'Lucida Calligraphy';">Balance Enquiry</a>
+                </aside>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="product_section_card my-3 p-2 shadow text-center zoom">
+                <img class="productImg" src="~/Images/customised.png" />
+                <aside>
+                    <a class="btn btn-outline-dark my-3" asp-controller="Manager" asp-action="CustomizedStatement" style="font-family:'Lucida Calligraphy';">Customized Statement</a>
+                </aside>
+            </div>
+        </div>
+    </div>
+    @*<a class="btn btn-outline-dark" asp-controller="Manager" asp-action="AddCustomer">New Customer</a>
+
+    <a class="btn btn-outline-dark" asp-controller="Manager" asp-action="UpdateCustomer">Update Customer</a>
+
+    <a class="btn btn-outline-dark" asp-controller="Manager" asp-action="DeleteCustomer">Delete Customer</a>
+
+    <a class="btn btn-outline-dark" asp-controller="Manager" asp-action="AddAccount">Add Account</a>
+
+    <a class="btn btn-outline-dark" asp-controller="Manager" asp-action="DeleteAccount">Delete Account</a>
+
+    <a class="btn btn-outline-dark" asp-controller="Manager" asp-action="UpdateAccount">Update Account</a>
+
+    <a class="btn btn-outline-dark" asp-controller="Manager" asp-action="Withdraw">Withdraw Amount</a>
+    <a class="btn btn-outline-dark" asp-controller="Manager" asp-action="Deposit">Deposit</a>
+    <a class="btn btn-outline-dark" asp-controller="Manager" asp-action="Ministatement">Mini Statement</a>
+    <a class="btn btn-outline-dark" asp-controller="Manager" asp-action="FundTransfer">Fund Transfer</a>
+    <a class="btn btn-outline-dark" asp-controller="Manager" asp-action="BalanceEnquiry">Balance Enquiry</a>*@
+
+</div>
+

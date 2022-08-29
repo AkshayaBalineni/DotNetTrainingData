@@ -1,0 +1,15 @@
+C:\Users\balineni_a\source\repos\ZohoBankingRepo\bin\Debug\net5.0\ZohoBankingRepo.deps.json
+C:\Users\balineni_a\source\repos\ZohoBankingRepo\bin\Debug\net5.0\ZohoBankingRepo.dll
+C:\Users\balineni_a\source\repos\ZohoBankingRepo\bin\Debug\net5.0\ref\ZohoBankingRepo.dll
+C:\Users\balineni_a\source\repos\ZohoBankingRepo\bin\Debug\net5.0\ZohoBankingRepo.pdb
+C:\Users\balineni_a\source\repos\ZohoBankingRepo\bin\Debug\net5.0\ZohoBankingCommonLayer.dll
+C:\Users\balineni_a\source\repos\ZohoBankingRepo\bin\Debug\net5.0\ZohoBankingCommonLayer.pdb
+C:\Users\balineni_a\source\repos\ZohoBankingRepo\obj\Debug\net5.0\ZohoBankingRepo.csproj.AssemblyReference.cache
+C:\Users\balineni_a\source\repos\ZohoBankingRepo\obj\Debug\net5.0\ZohoBankingRepo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\balineni_a\source\repos\ZohoBankingRepo\obj\Debug\net5.0\ZohoBankingRepo.AssemblyInfoInputs.cache
+C:\Users\balineni_a\source\repos\ZohoBankingRepo\obj\Debug\net5.0\ZohoBankingRepo.AssemblyInfo.cs
+C:\Users\balineni_a\source\repos\ZohoBankingRepo\obj\Debug\net5.0\ZohoBankingRepo.csproj.CoreCompileInputs.cache
+C:\Users\balineni_a\source\repos\ZohoBankingRepo\obj\Debug\net5.0\ZohoBankingRepo.csproj.CopyComplete
+C:\Users\balineni_a\source\repos\ZohoBankingRepo\obj\Debug\net5.0\ZohoBankingRepo.dll
+C:\Users\balineni_a\source\repos\ZohoBankingRepo\obj\Debug\net5.0\ref\ZohoBankingRepo.dll
+C:\Users\balineni_a\source\repos\ZohoBankingRepo\obj\Debug\net5.0\ZohoBankingRepo.pdb

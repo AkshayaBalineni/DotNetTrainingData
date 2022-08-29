@@ -1,0 +1,16 @@
+﻿@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor httpContextAccessor
+
+<div class="navbar-nav justify-content-center">
+    @if (httpContextAccessor.HttpContext.Session.GetString("managerId") != null)
+    {
+        <form asp-action="Logout" asp-controller="Home" method="post">
+            <button class="btn btn-outline-dark" style="font-family:'Lucida Calligraphy';">Logout</button>
+        </form>
+    }
+    else
+    {
+        <a asp-controller="Home" asp-action="MangerLogin" class="btn btn-outline-dark mx-3" style="font-family:'Lucida Calligraphy';">Login</a>
+    }
+
+</div>

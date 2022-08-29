@@ -1,0 +1,16 @@
+C:\Users\balineni_a\source\repos\PracticeApplications\BestFriendList\bin\Debug\net5.0\BestFriendList.exe
+C:\Users\balineni_a\source\repos\PracticeApplications\BestFriendList\bin\Debug\net5.0\BestFriendList.deps.json
+C:\Users\balineni_a\source\repos\PracticeApplications\BestFriendList\bin\Debug\net5.0\BestFriendList.runtimeconfig.json
+C:\Users\balineni_a\source\repos\PracticeApplications\BestFriendList\bin\Debug\net5.0\BestFriendList.runtimeconfig.dev.json
+C:\Users\balineni_a\source\repos\PracticeApplications\BestFriendList\bin\Debug\net5.0\BestFriendList.dll
+C:\Users\balineni_a\source\repos\PracticeApplications\BestFriendList\bin\Debug\net5.0\ref\BestFriendList.dll
+C:\Users\balineni_a\source\repos\PracticeApplications\BestFriendList\bin\Debug\net5.0\BestFriendList.pdb
+C:\Users\balineni_a\source\repos\PracticeApplications\BestFriendList\obj\Debug\net5.0\BestFriendList.csproj.AssemblyReference.cache
+C:\Users\balineni_a\source\repos\PracticeApplications\BestFriendList\obj\Debug\net5.0\BestFriendList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\balineni_a\source\repos\PracticeApplications\BestFriendList\obj\Debug\net5.0\BestFriendList.AssemblyInfoInputs.cache
+C:\Users\balineni_a\source\repos\PracticeApplications\BestFriendList\obj\Debug\net5.0\BestFriendList.AssemblyInfo.cs
+C:\Users\balineni_a\source\repos\PracticeApplications\BestFriendList\obj\Debug\net5.0\BestFriendList.csproj.CoreCompileInputs.cache
+C:\Users\balineni_a\source\repos\PracticeApplications\BestFriendList\obj\Debug\net5.0\BestFriendList.dll
+C:\Users\balineni_a\source\repos\PracticeApplications\BestFriendList\obj\Debug\net5.0\ref\BestFriendList.dll
+C:\Users\balineni_a\source\repos\PracticeApplications\BestFriendList\obj\Debug\net5.0\BestFriendList.pdb
+C:\Users\balineni_a\source\repos\PracticeApplications\BestFriendList\obj\Debug\net5.0\BestFriendList.genruntimeconfig.cache

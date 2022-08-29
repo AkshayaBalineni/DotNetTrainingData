@@ -1,0 +1,15 @@
+C:\Users\balineni_a\source\repos\ShopOnNewApp\ShopOnDataLayer\bin\Debug\net5.0\ShopOnDataLayer.deps.json
+C:\Users\balineni_a\source\repos\ShopOnNewApp\ShopOnDataLayer\bin\Debug\net5.0\ShopOnDataLayer.dll
+C:\Users\balineni_a\source\repos\ShopOnNewApp\ShopOnDataLayer\bin\Debug\net5.0\ref\ShopOnDataLayer.dll
+C:\Users\balineni_a\source\repos\ShopOnNewApp\ShopOnDataLayer\bin\Debug\net5.0\ShopOnDataLayer.pdb
+C:\Users\balineni_a\source\repos\ShopOnNewApp\ShopOnDataLayer\bin\Debug\net5.0\ShopOnCommonLayer.dll
+C:\Users\balineni_a\source\repos\ShopOnNewApp\ShopOnDataLayer\bin\Debug\net5.0\ShopOnCommonLayer.pdb
+C:\Users\balineni_a\source\repos\ShopOnNewApp\ShopOnDataLayer\obj\Debug\net5.0\ShopOnDataLayer.csproj.AssemblyReference.cache
+C:\Users\balineni_a\source\repos\ShopOnNewApp\ShopOnDataLayer\obj\Debug\net5.0\ShopOnDataLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\balineni_a\source\repos\ShopOnNewApp\ShopOnDataLayer\obj\Debug\net5.0\ShopOnDataLayer.AssemblyInfoInputs.cache
+C:\Users\balineni_a\source\repos\ShopOnNewApp\ShopOnDataLayer\obj\Debug\net5.0\ShopOnDataLayer.AssemblyInfo.cs
+C:\Users\balineni_a\source\repos\ShopOnNewApp\ShopOnDataLayer\obj\Debug\net5.0\ShopOnDataLayer.csproj.CoreCompileInputs.cache
+C:\Users\balineni_a\source\repos\ShopOnNewApp\ShopOnDataLayer\obj\Debug\net5.0\ShopOnDataLayer.csproj.CopyComplete
+C:\Users\balineni_a\source\repos\ShopOnNewApp\ShopOnDataLayer\obj\Debug\net5.0\ShopOnDataLayer.dll
+C:\Users\balineni_a\source\repos\ShopOnNewApp\ShopOnDataLayer\obj\Debug\net5.0\ref\ShopOnDataLayer.dll
+C:\Users\balineni_a\source\repos\ShopOnNewApp\ShopOnDataLayer\obj\Debug\net5.0\ShopOnDataLayer.pdb

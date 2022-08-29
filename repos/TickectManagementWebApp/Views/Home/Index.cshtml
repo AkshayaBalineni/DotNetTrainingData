@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="banner" style="max-width: 1600px; align-content: center;">
+    <img src="../images/NewTicketBanner.jpg" style="width:100%">
+</div>
+<hr />
+<div class=" container">
+    <div class="text-center">
+          <div class="form-group">
+                <a class="btn btn-outline-primary" asp-action="LogTicket" asp-controller="Ticket">Log Ticket</a>
+                <a class="btn btn-outline-danger" asp-action="CloseTicket" asp-controller="Ticket">Close Ticket</a>
+            </div>
+    </div>
+    <hr />
+</div>

@@ -1,0 +1,91 @@
+﻿@model BankingWebApp.Models.NewAccount
+
+@{
+    ViewData["Title"] = "AddAccount";
+}
+<h4 style="font-family:'Lucida Calligraphy';">New Account</h4>
+<hr />
+<span class="text-danger mb-5" style="font-family:'Lucida Calligraphy';" id="lblError"></span>
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="AddAccount" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="CustomerId" class="control-label" style="font-family:'Lucida Calligraphy';"></label>
+                <select asp-for="CustomerId" class="form-control">
+                    @foreach (var cust in ViewBag.customers)
+                    {
+                        <option value=@cust.CustomerId>@cust.CustomerId</option>
+                    }
+                </select>
+                <span asp-validation-for="CustomerId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Balance" class="control-label" style="font-family:'Lucida Calligraphy';"></label>
+                <input asp-for="Balance" class="form-control" onkeypress="return ValidateNumber(event)" />
+                <span asp-validation-for="Balance" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DOC" class="control-label" style="font-family:'Lucida Calligraphy';"></label>
+                <input asp-for="DOC" class="form-control" />
+                <span asp-validation-for="DOC" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Tin" class="control-label" style="font-family:'Lucida Calligraphy';"></label>
+                <input asp-for="Tin" class="form-control"/>
+                <span asp-validation-for="Tin" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AccountType" class="control-label" style="font-family:'Lucida Calligraphy';"></label>
+                <select asp-for="AccountType" class="form-control">
+                    <option value="savings">Savings</option>
+                    <option value="current">Current</option>
+                    <option value="corporate">Corporate</option>
+                </select>
+                <span asp-validation-for="AccountType" class="text-danger"></span>
+            </div>
+           @* <div class="form-group">
+                <label asp-for="IFSC" class="control-label"></label>
+                <input asp-for="IFSC" class="form-control" />
+                <span asp-validation-for="IFSC" class="text-danger"></span>
+            </div>*@@*
+            <div class="form-group">
+                <label asp-for="MinimumBalance" class="control-label"></label>
+                <input asp-for="MinimumBalance" class="form-control" onkeypress="return ValidateNumber(event)"/>
+                <span asp-validation-for="MinimumBalance" class="text-danger"></span>
+            </div>*@
+            <div class="form-group">
+                <input type="submit" value="Submit" class="btn btn-outline-dark mx-3" style="font-family:'Lucida Calligraphy';"/>
+                <input type="reset" value="Reset" class="btn btn-outline-danger" style="font-family:'Lucida Calligraphy';" />
+            </div>
+        </form>
+    </div>
+</div>
+<hr />
+<div>
+    <a asp-controller="Home" asp-action="ManagerFeatures" class="btn btn-outline-secondary" style="font-family:'Lucida Calligraphy';">Back</a>
+</div>
+@section scripts
+{
+    <script type="text/javascript">
+        /* ---------Validation for Numbers------------ */
+        function ValidateNumber(e) {
+            var keyCode = e.keyCode || e.which;
+
+            var lblError = document.getElementById("lblError");
+            lblError.innerHTML = "";
+
+            //Regex for Valid Characters i.e. Alphabets.
+            var regex = /^[0-9]+$/;
+
+            //Validate TextBox value against the Regex.
+            var isValid = regex.test(String.fromCharCode(keyCode));
+            if (!isValid) {
+                isValid = false;
+                lblError.innerHTML = "Only Numbers are allowed.";
+            }
+            return isValid;
+        }
+    </script>
+}
+

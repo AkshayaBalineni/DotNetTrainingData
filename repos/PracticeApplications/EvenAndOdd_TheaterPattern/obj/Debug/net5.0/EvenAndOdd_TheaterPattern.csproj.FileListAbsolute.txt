@@ -1,0 +1,16 @@
+C:\Users\balineni_a\source\repos\PracticeApplications\EvenAndOdd_TheaterPattern\bin\Debug\net5.0\EvenAndOdd_TheaterPattern.exe
+C:\Users\balineni_a\source\repos\PracticeApplications\EvenAndOdd_TheaterPattern\bin\Debug\net5.0\EvenAndOdd_TheaterPattern.deps.json
+C:\Users\balineni_a\source\repos\PracticeApplications\EvenAndOdd_TheaterPattern\bin\Debug\net5.0\EvenAndOdd_TheaterPattern.runtimeconfig.json
+C:\Users\balineni_a\source\repos\PracticeApplications\EvenAndOdd_TheaterPattern\bin\Debug\net5.0\EvenAndOdd_TheaterPattern.runtimeconfig.dev.json
+C:\Users\balineni_a\source\repos\PracticeApplications\EvenAndOdd_TheaterPattern\bin\Debug\net5.0\EvenAndOdd_TheaterPattern.dll
+C:\Users\balineni_a\source\repos\PracticeApplications\EvenAndOdd_TheaterPattern\bin\Debug\net5.0\ref\EvenAndOdd_TheaterPattern.dll
+C:\Users\balineni_a\source\repos\PracticeApplications\EvenAndOdd_TheaterPattern\bin\Debug\net5.0\EvenAndOdd_TheaterPattern.pdb
+C:\Users\balineni_a\source\repos\PracticeApplications\EvenAndOdd_TheaterPattern\obj\Debug\net5.0\EvenAndOdd_TheaterPattern.csproj.AssemblyReference.cache
+C:\Users\balineni_a\source\repos\PracticeApplications\EvenAndOdd_TheaterPattern\obj\Debug\net5.0\EvenAndOdd_TheaterPattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\balineni_a\source\repos\PracticeApplications\EvenAndOdd_TheaterPattern\obj\Debug\net5.0\EvenAndOdd_TheaterPattern.AssemblyInfoInputs.cache
+C:\Users\balineni_a\source\repos\PracticeApplications\EvenAndOdd_TheaterPattern\obj\Debug\net5.0\EvenAndOdd_TheaterPattern.AssemblyInfo.cs
+C:\Users\balineni_a\source\repos\PracticeApplications\EvenAndOdd_TheaterPattern\obj\Debug\net5.0\EvenAndOdd_TheaterPattern.csproj.CoreCompileInputs.cache
+C:\Users\balineni_a\source\repos\PracticeApplications\EvenAndOdd_TheaterPattern\obj\Debug\net5.0\EvenAndOdd_TheaterPattern.dll
+C:\Users\balineni_a\source\repos\PracticeApplications\EvenAndOdd_TheaterPattern\obj\Debug\net5.0\ref\EvenAndOdd_TheaterPattern.dll
+C:\Users\balineni_a\source\repos\PracticeApplications\EvenAndOdd_TheaterPattern\obj\Debug\net5.0\EvenAndOdd_TheaterPattern.pdb
+C:\Users\balineni_a\source\repos\PracticeApplications\EvenAndOdd_TheaterPattern\obj\Debug\net5.0\EvenAndOdd_TheaterPattern.genruntimeconfig.cache

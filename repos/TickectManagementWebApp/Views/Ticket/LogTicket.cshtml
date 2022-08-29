@@ -1,0 +1,58 @@
+﻿@model TickectManagementWebApp.Models.LogTicket
+
+@{
+    ViewData["Title"] = "LogTicket";
+}
+
+<h4>Ticket Logging</h4>
+<hr/>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <form asp-action="LogTicket" method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="EmployeeId" class="control-label"></label>
+                    <input asp-for="EmployeeId" class="form-control" />
+                    <span asp-validation-for="EmployeeId" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="EmployeeDept" class="control-label"></label>
+                    <select class="form-control" asp-for="EmployeeDept" aria-label="Default select example">
+                        <option selected>select Dept</option>
+                        <option value="Dev">Dev</option>
+                        <option value="MGM">MGM</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label asp-for="TicketDate" class="control-label"></label>
+                    <input asp-for="TicketDate" class="form-control" placeholder=" " />
+                    <span asp-validation-for="TicketDate" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Severity" class="control-label"></label>
+                    <select class="form-control" asp-for="Severity" aria-label="Default select example">
+                        <option selected>select Severity</option>
+                        <option value="Critical">Critical</option>
+                        <option value="High">High</option>
+                        <option value="Medium">Medium</option>
+                        <option value="Low">Low</option>
+                    </select>
+                    <span asp-validation-for="Severity" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="TicketDescription" class="control-label"></label>
+                    <input asp-for="TicketDescription" class="form-control" />
+                    <span asp-validation-for="TicketDescription" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Raise Ticket" class="btn btn-outline-primary" />
+                    <a class="btn btn-outline-danger" asp-action="Index" asp-controller="Home">Cancel</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<hr />
+
+

@@ -1,0 +1,31 @@
+﻿@model BankingWebApp.Models.ManagerLogin
+
+@{
+    ViewData["Title"] = "MangerLogin";
+}
+
+<h4>ManagerLogin</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="MangerLogin" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="MangerId" class="control-label" style="font-family:'Lucida Calligraphy';"></label>
+                <input asp-for="MangerId" class="form-control" />
+                <span asp-validation-for="MangerId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Password" class="control-label" style="font-family:'Lucida Calligraphy';"></label>
+                <input asp-for="Password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Login" class="btn btn-outline-dark" />
+                <a asp-action="ChangePassword" asp-controller="Home" class="btn btn-outline-danger">Change Password</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+

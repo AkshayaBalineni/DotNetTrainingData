@@ -1,0 +1,363 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\balineni_a\\source\\repos\\ShopOnNewApp\\ShopOnWebApp\\ShopOnWebApp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\balineni_a\\source\\repos\\ShopOnNewApp\\ShopOnBussinessLayer\\ShopOnBussinessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\balineni_a\\source\\repos\\ShopOnNewApp\\ShopOnBussinessLayer\\ShopOnBussinessLayer.csproj",
+        "projectName": "ShopOnBussinessLayer",
+        "projectPath": "C:\\Users\\balineni_a\\source\\repos\\ShopOnNewApp\\ShopOnBussinessLayer\\ShopOnBussinessLayer.csproj",
+        "packagesPath": "C:\\Users\\balineni_a\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\balineni_a\\source\\repos\\ShopOnNewApp\\ShopOnBussinessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\balineni_a\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\balineni_a\\source\\repos\\ShopOnNewApp\\ShopOnCommonLayer\\ShopOnCommonLayer.csproj": {
+                "projectPath": "C:\\Users\\balineni_a\\source\\repos\\ShopOnNewApp\\ShopOnCommonLayer\\ShopOnCommonLayer.csproj"
+              },
+              "C:\\Users\\balineni_a\\source\\repos\\ShopOnNewApp\\ShopOnDataLayer\\ShopOnDataLayer.csproj": {
+                "projectPath": "C:\\Users\\balineni_a\\source\\repos\\ShopOnNewApp\\ShopOnDataLayer\\ShopOnDataLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\balineni_a\\source\\repos\\ShopOnNewApp\\ShopOnCommonLayer\\ShopOnCommonLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\balineni_a\\source\\repos\\ShopOnNewApp\\ShopOnCommonLayer\\ShopOnCommonLayer.csproj",
+        "projectName": "ShopOnCommonLayer",
+        "projectPath": "C:\\Users\\balineni_a\\source\\repos\\ShopOnNewApp\\ShopOnCommonLayer\\ShopOnCommonLayer.csproj",
+        "packagesPath": "C:\\Users\\balineni_a\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\balineni_a\\source\\repos\\ShopOnNewApp\\ShopOnCommonLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\balineni_a\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\balineni_a\\source\\repos\\ShopOnNewApp\\ShopOnDataLayer\\ShopOnDataLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\balineni_a\\source\\repos\\ShopOnNewApp\\ShopOnDataLayer\\ShopOnDataLayer.csproj",
+        "projectName": "ShopOnDataLayer",
+        "projectPath": "C:\\Users\\balineni_a\\source\\repos\\ShopOnNewApp\\ShopOnDataLayer\\ShopOnDataLayer.csproj",
+        "packagesPath": "C:\\Users\\balineni_a\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\balineni_a\\source\\repos\\ShopOnNewApp\\ShopOnDataLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\balineni_a\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\balineni_a\\source\\repos\\ShopOnNewApp\\ShopOnCommonLayer\\ShopOnCommonLayer.csproj": {
+                "projectPath": "C:\\Users\\balineni_a\\source\\repos\\ShopOnNewApp\\ShopOnCommonLayer\\ShopOnCommonLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.Collections": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\balineni_a\\source\\repos\\ShopOnNewApp\\ShopOnEFLayer\\ShopOnEFLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\balineni_a\\source\\repos\\ShopOnNewApp\\ShopOnEFLayer\\ShopOnEFLayer.csproj",
+        "projectName": "ShopOnEFLayer",
+        "projectPath": "C:\\Users\\balineni_a\\source\\repos\\ShopOnNewApp\\ShopOnEFLayer\\ShopOnEFLayer.csproj",
+        "packagesPath": "C:\\Users\\balineni_a\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\balineni_a\\source\\repos\\ShopOnNewApp\\ShopOnEFLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\balineni_a\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\balineni_a\\source\\repos\\ShopOnNewApp\\ShopOnCommonLayer\\ShopOnCommonLayer.csproj": {
+                "projectPath": "C:\\Users\\balineni_a\\source\\repos\\ShopOnNewApp\\ShopOnCommonLayer\\ShopOnCommonLayer.csproj"
+              },
+              "C:\\Users\\balineni_a\\source\\repos\\ShopOnNewApp\\ShopOnDataLayer\\ShopOnDataLayer.csproj": {
+                "projectPath": "C:\\Users\\balineni_a\\source\\repos\\ShopOnNewApp\\ShopOnDataLayer\\ShopOnDataLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\balineni_a\\source\\repos\\ShopOnNewApp\\ShopOnWebApp\\ShopOnWebApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\balineni_a\\source\\repos\\ShopOnNewApp\\ShopOnWebApp\\ShopOnWebApp.csproj",
+        "projectName": "ShopOnWebApp",
+        "projectPath": "C:\\Users\\balineni_a\\source\\repos\\ShopOnNewApp\\ShopOnWebApp\\ShopOnWebApp.csproj",
+        "packagesPath": "C:\\Users\\balineni_a\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\balineni_a\\source\\repos\\ShopOnNewApp\\ShopOnWebApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\balineni_a\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\balineni_a\\source\\repos\\ShopOnNewApp\\ShopOnBussinessLayer\\ShopOnBussinessLayer.csproj": {
+                "projectPath": "C:\\Users\\balineni_a\\source\\repos\\ShopOnNewApp\\ShopOnBussinessLayer\\ShopOnBussinessLayer.csproj"
+              },
+              "C:\\Users\\balineni_a\\source\\repos\\ShopOnNewApp\\ShopOnCommonLayer\\ShopOnCommonLayer.csproj": {
+                "projectPath": "C:\\Users\\balineni_a\\source\\repos\\ShopOnNewApp\\ShopOnCommonLayer\\ShopOnCommonLayer.csproj"
+              },
+              "C:\\Users\\balineni_a\\source\\repos\\ShopOnNewApp\\ShopOnEFLayer\\ShopOnEFLayer.csproj": {
+                "projectPath": "C:\\Users\\balineni_a\\source\\repos\\ShopOnNewApp\\ShopOnEFLayer\\ShopOnEFLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

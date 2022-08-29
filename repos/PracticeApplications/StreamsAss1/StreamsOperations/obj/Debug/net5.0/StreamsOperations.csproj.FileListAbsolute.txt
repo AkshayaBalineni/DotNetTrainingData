@@ -1,0 +1,16 @@
+C:\Users\balineni_a\source\repos\PracticeApplications\StreamsAss1\StreamsOperations\bin\Debug\net5.0\StreamsOperations.exe
+C:\Users\balineni_a\source\repos\PracticeApplications\StreamsAss1\StreamsOperations\bin\Debug\net5.0\StreamsOperations.deps.json
+C:\Users\balineni_a\source\repos\PracticeApplications\StreamsAss1\StreamsOperations\bin\Debug\net5.0\StreamsOperations.runtimeconfig.json
+C:\Users\balineni_a\source\repos\PracticeApplications\StreamsAss1\StreamsOperations\bin\Debug\net5.0\StreamsOperations.runtimeconfig.dev.json
+C:\Users\balineni_a\source\repos\PracticeApplications\StreamsAss1\StreamsOperations\bin\Debug\net5.0\StreamsOperations.dll
+C:\Users\balineni_a\source\repos\PracticeApplications\StreamsAss1\StreamsOperations\bin\Debug\net5.0\ref\StreamsOperations.dll
+C:\Users\balineni_a\source\repos\PracticeApplications\StreamsAss1\StreamsOperations\bin\Debug\net5.0\StreamsOperations.pdb
+C:\Users\balineni_a\source\repos\PracticeApplications\StreamsAss1\StreamsOperations\obj\Debug\net5.0\StreamsOperations.csproj.AssemblyReference.cache
+C:\Users\balineni_a\source\repos\PracticeApplications\StreamsAss1\StreamsOperations\obj\Debug\net5.0\StreamsOperations.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\balineni_a\source\repos\PracticeApplications\StreamsAss1\StreamsOperations\obj\Debug\net5.0\StreamsOperations.AssemblyInfoInputs.cache
+C:\Users\balineni_a\source\repos\PracticeApplications\StreamsAss1\StreamsOperations\obj\Debug\net5.0\StreamsOperations.AssemblyInfo.cs
+C:\Users\balineni_a\source\repos\PracticeApplications\StreamsAss1\StreamsOperations\obj\Debug\net5.0\StreamsOperations.csproj.CoreCompileInputs.cache
+C:\Users\balineni_a\source\repos\PracticeApplications\StreamsAss1\StreamsOperations\obj\Debug\net5.0\StreamsOperations.dll
+C:\Users\balineni_a\source\repos\PracticeApplications\StreamsAss1\StreamsOperations\obj\Debug\net5.0\ref\StreamsOperations.dll
+C:\Users\balineni_a\source\repos\PracticeApplications\StreamsAss1\StreamsOperations\obj\Debug\net5.0\StreamsOperations.pdb
+C:\Users\balineni_a\source\repos\PracticeApplications\StreamsAss1\StreamsOperations\obj\Debug\net5.0\StreamsOperations.genruntimeconfig.cache

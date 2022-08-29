@@ -1,0 +1,59 @@
+﻿@model IEnumerable<ShopOnCommonLayer.Models.Product>
+@{
+    ViewData["Title"] = "Home Page";
+}
+@*<div class="container">
+    <div class="row adds">
+        <div class="col-md-4">
+            <h2>Mobile Phones</h2>
+            <img src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1625301728/Croma%20Assets/CMS/LP%20Page%20Banners/2021/PCP%20Mobile/New_scwunn.jpg/mxw_2048,f_auto" alt="New" />
+        </div>
+        <div class="col-md-4">
+            <h2>Latest Phones</h2>
+            <img src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1625561994/Croma%20Assets/CMS/LP%20Page%20Banners/2021/PCP%20Mobile/Popular_6July_hgjxqb.jpg/mxw_2048,f_auto" alt="Popular" />
+        </div>
+        <div class="col-md-4">
+            <h2>Deal of the day</h2>
+            <img src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1625561994/Croma%20Assets/CMS/LP%20Page%20Banners/2021/PCP%20Mobile/HotDeals_6July_ohu9jg.jpg/mxw_2048,f_auto" alt="Hot Deals" />
+        </div>
+    </div>
+</div>*@
+<div class="banner" style="max-width: 1600px; align-content: center;">
+    <img src="../images/Home.jpg" style="width:100%">
+</div>
+<div>
+    <hr />
+    <nav aria-label="Page navigation example">
+        <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">4</a></li>
+            <li class="page-item"><a class="page-link" href="#">5</a></li>
+        </ul>
+    </nav>
+</div>
+<hr />
+<div class="container">
+    <div class="row">
+        @foreach (var product in Model)
+        {
+            <div class="col-md-4 col-lg-3 col-sm-4">
+                <div class="card  my-lg-3 w-100 hover-shawdow">
+                    <div class="card-body text-center">
+                        <a asp-controller="Home" asp-action="Details" asp-route-pid="@product.PId">
+                            <img src="~/@Url.Content(product.ImageUrl)" />
+                        </a>
+                        <h4 class="card-text">
+                            <label class="pname">@product.ProductName</label>
+                        </h4>
+                        <p class="card-text">
+                            <span class="inr-sign"></span>
+                            <span class="price">@product.ProductPrice</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

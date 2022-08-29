@@ -1,0 +1,7 @@
+C:\Users\balineni_a\source\repos\ShoppingApplication\bin\Debug\ShoppingApplication.exe.config
+C:\Users\balineni_a\source\repos\ShoppingApplication\bin\Debug\ShoppingApplication.exe
+C:\Users\balineni_a\source\repos\ShoppingApplication\bin\Debug\ShoppingApplication.pdb
+C:\Users\balineni_a\source\repos\ShoppingApplication\obj\Debug\ShoppingApplication.csproj.AssemblyReference.cache
+C:\Users\balineni_a\source\repos\ShoppingApplication\obj\Debug\ShoppingApplication.csproj.CoreCompileInputs.cache
+C:\Users\balineni_a\source\repos\ShoppingApplication\obj\Debug\ShoppingApplication.exe
+C:\Users\balineni_a\source\repos\ShoppingApplication\obj\Debug\ShoppingApplication.pdb
