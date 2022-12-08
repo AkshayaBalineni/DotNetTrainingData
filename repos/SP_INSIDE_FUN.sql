@@ -1,0 +1,1 @@
+USE [db_shopon]GOIF EXISTS(	SELECT 1 FROM sys.objects WHERE type = 'F' AND OBJECT_ID = OBJECT_ID('[dbo].[fn_checkForSP]'))BEGIN	DROP Function [dbo].[fn_checkForSP]ENDGOCREATE FUNCTION [dbo].[fn_checkForSP](	EXEC sp_CustomerProfile 1;)
